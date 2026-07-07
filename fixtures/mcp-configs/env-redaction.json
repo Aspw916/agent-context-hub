@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "sensitive-service": {
+      "command": "npx",
+      "args": ["-y", "some-mcp-server"],
+      "env": {
+        "API_KEY": "PLACEHOLDER_API_KEY",
+        "SECRET_TOKEN": "PLACEHOLDER_SECRET_TOKEN",
+        "PASSWORD": "PLACEHOLDER_PASSWORD",
+        "BEARER_TOKEN": "PLACEHOLDER_BEARER_TOKEN",
+        "PUBLIC_VAR": "this-is-safe-to-show"
+      }
+    }
+  }
+}

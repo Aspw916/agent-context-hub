@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/home/user/projects"]
+    },
+    "sqlite": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/sqlite-mcp"]
+    }
+  }
+}

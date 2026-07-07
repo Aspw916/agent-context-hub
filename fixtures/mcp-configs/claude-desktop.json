@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/tmp"]
+    },
+    "postgres": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/postgres-mcp"],
+      "env": {
+        "PG_CONNECTION_STRING": "${PG_CONNECTION_STRING}"
+      }
+    }
+  }
+}

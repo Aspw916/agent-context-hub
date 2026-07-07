@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+
+# local data directory (not in repo)
+.agent-context-hub/
+.hub-data/
+.data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Build artifacts
+*.tsbuildinfo

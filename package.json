@@ -1,0 +1,42 @@
+{
+  "name": "agent-context-hub",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "A local-first control panel for your AI agents and their assets",
+  "license": "MIT",
+  "keywords": [
+    "ai-agents",
+    "agent-context",
+    "mcp",
+    "model-context-protocol",
+    "skills",
+    "developer-tools",
+    "ai-observability",
+    "local-first",
+    "typescript",
+    "react"
+  ],
+  "author": "Agent Context Hub Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/agent-context-hub"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w @agent-hub/server\" \"npm run dev -w @agent-hub/web\"",
+    "build": "npm run build -ws --if-present",
+    "test": "npm run test -ws --if-present",
+    "typecheck": "npm run typecheck -ws --if-present",
+    "clean": "npm run clean -ws --if-present"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

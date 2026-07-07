@@ -1,0 +1,17 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "A test Node.js project for fixture testing",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0",
+    "typescript": "^5.7.0"
+  }
+}
