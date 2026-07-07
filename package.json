@@ -20,7 +20,7 @@
   "author": "Agent Context Hub Contributors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/agent-context-hub"
+    "url": "https://github.com/Aspw916/agent-context-hub"
   },
   "workspaces": [
     "apps/*",
